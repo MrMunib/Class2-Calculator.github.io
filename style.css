@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#wrapper {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.result {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border-radius: 1.8rem;
+  padding: 1rem;
+
+  text-align: right;
+  border: none;
+  outline: none;
+}
+
+#button-wrapper {
+  border-radius: 1rem;
+  margin-top: 20px;
+  width: 100%;
+  height: 80%;
+
+  display: grid;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+}
+
+.buttons {
+  border: 2px solid black;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: gray;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+
+.yellow{
+    background-color: rgb(212, 185, 10);
+    font-size: 1.5rem;
+}
+
+#zero{
+    grid-column: 1 / span 2;
+    width: 9rem;
+    height: 3.9rem;
+    align-self: flex-end;
+    border-radius: 30px;
+}
+.sky{
+    background-color: rgba(149, 189, 205, 0.771);
+}

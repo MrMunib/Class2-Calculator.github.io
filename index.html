@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+   <div id="wrapper">
+    <form action="">
+        <input type="text" class="result" readonly value=""/>
+    </form>
+
+    <div id="button-wrapper">
+        <span onclick="appendValue(this)" class="buttons sky">AC</span>
+        <span onclick="appendValue(this)" class="buttons sky">DEL</span>
+        <span onclick="appendValue(this)" class="buttons sky">%</span>
+        <span onclick="appendValue(this)" class="buttons yellow">/</span>
+        <span onclick="appendValue(this)" class="buttons">7</span>
+        <span onclick="appendValue(this)" class="buttons">8</span>
+        <span onclick="appendValue(this)" class="buttons">9</span>
+        <span onclick="appendValue(this)" class="buttons yellow">*</span>
+        <span onclick="appendValue(this)" class="buttons">4</span>
+        <span onclick="appendValue(this)" class="buttons">5</span>
+        <span onclick="appendValue(this)" class="buttons">6</span>
+        <span onclick="appendValue(this)" class="buttons yellow">-</span>
+        <span onclick="appendValue(this)" class="buttons">1</span>
+        <span onclick="appendValue(this)" class="buttons">2</span>
+        <span onclick="appendValue(this)" class="buttons">3</span>
+        <span onclick="appendValue(this)" class="buttons yellow">+</span>
+        <span onclick="appendValue(this)" class="buttons" id="zero">0</span>
+        <span onclick="appendValue(this)" class="buttons">.</span>
+        <span onclick="appendValue(this)" class="buttons yellow">=</span>
+    </div>
+   </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
